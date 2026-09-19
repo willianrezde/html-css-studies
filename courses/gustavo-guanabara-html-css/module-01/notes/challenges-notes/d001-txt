@@ -1,0 +1,78 @@
+# D001 — Desafio das Mensagens
+
+## O que eu pratiquei
+
+Nesse desafio, a ideia principal era fazer uma sequência de mensagens usando:
+
+`*Um`
+`**Dois`
+`***Três`
+`****Quatro`
+
+e depois voltar até o `*Um`.
+
+Além de fazer o desafio, aproveitei para testar diferentes formas de conseguir o mesmo resultado no HTML.
+
+Testei:
+
+- `<p>` com vários `<br>`;
+- cada mensagem em um `<p>` diferente;
+- um único `<p>` usando `<br>` e limitando o `width`;
+- `<ul>` com `<li>`;
+- `<ol>` com `<li>`.
+
+## O que eu entendi
+
+O `<br>` serve para fazer uma **quebra de linha dentro do mesmo conteúdo**. Funciona, mas usar vários `<br>` para organizar várias informações não é uma solução muito interessante quando existem elementos que podem representar melhor aquela estrutura.
+
+O `<p>` representa um **parágrafo**, então colocar cada mensagem em um parágrafo separado também funciona visualmente, mas comecei a perceber que nem sempre o elemento que produz o resultado visual é necessariamente o elemento mais adequado para representar o conteúdo.
+
+Também testei listas:
+
+- `<ul>` → lista não ordenada;
+- `<ol>` → lista ordenada;
+- `<li>` → item da lista.
+
+Nesse teste, descobri também que não basta usar uma lista só porque ela consegue deixar os itens um embaixo do outro. É preciso pensar se aquele conteúdo realmente representa uma lista.
+
+## CSS que pratiquei
+
+Usei `font-size` para aumentar o tamanho dos textos.
+
+Usei `margin` e `padding` para controlar os espaçamentos que vêm por padrão nos elementos.
+
+Usei `list-style-type: none` para remover a bolinha do `<ul>` e a numeração do `<ol>`.
+
+Também usei `width` para limitar a largura dos elementos e observar como o navegador faz a **quebra automática de linha** quando o espaço disponível fica menor.
+
+## Um erro que encontrei
+
+Durante os testes coloquei:
+
+```css
+font-style: none;
+```
+
+achando que poderia remover o estilo da lista.
+
+Depois entendi que `font-style` está relacionado ao **estilo da fonte**, como `normal` e `italic`.
+
+Para remover os marcadores da lista, a propriedade correta é:
+
+```css
+list-style-type: none;
+```
+
+## O que mais achei interessante
+
+O mais interessante desse exercício não foi simplesmente conseguir chegar no resultado final.
+
+Foi testar várias formas de fazer a mesma coisa e observar como cada elemento se comporta.
+
+Percebi melhor que **HTML organiza e dá significado ao conteúdo**, enquanto o **CSS controla sua apresentação**.
+
+Também comecei a perceber que uma coisa pode funcionar visualmente e ainda assim não ser a melhor escolha estruturalmente.
+
+## Como eu fiz
+
+**pensei → testei → observei → pesquisei → comparei → entendi → documentei**

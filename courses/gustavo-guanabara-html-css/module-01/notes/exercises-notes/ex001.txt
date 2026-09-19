@@ -1,0 +1,82 @@
+Exercício 001 - Resumo 
+Neste exercicio fiz minha primeira pagina em html junto ao css.
+html: extrutura
+css: folha de estilo
+
+======================================
+
+tags aprendidas:
+<meta charset="UTF-8">  
+- meta: informação sobre o documento, não é conteudo visível.
+
+- charset: define o conjunto de caracteres usado pela página.
+
+- UTF-8: Permite todos os caracteres que voce irá usar, ex: ç, simbolos, acentos.
+
+RESUMO: Define como os caracteres do documento devem ser interpretados.
+======================================
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+- name="viewport": diz que essa informação é sobrea area de visualização da pagina.
+
+- content: contem as configurações dessa informação.
+
+- width=device-width: a largura da pagina deve acompanhar a largura do dispositivo.
+
+- initial-scale=1.0: define o zoom inicial como 100%.
+
+RESUMO: ajuda a página a se comportar corretamente em diferentes tamanhos de tela, principalmente dispositivos móveis.
+======================================
+<meta name="description" content="ex001-Gustavo Guanabara - Willian Rezende Ramalho">
+
+name="description": identifica que voce esta fornecendo uma descrição a pagina.
+
+content="...": contem o texto da descrição.
+
+RESUMO: fornece uma descrição sobre a página para mecanismos de busca e outros sistemas que leem os metadados.
+======================================
+<meta name="author" content="Willian Rezende Ramalho">
+
+name="author": identifica que a informação é sobre o autor.
+
+content="..." informa o nome do autor.
+
+RESUMO: registra nos metadados quem é o autor do documento.
+======================================
+
+<link rel="stylesheet" href="../css/style.css">
+
+rel="stylesheet": define a relação entre o documento atual e o recurso externo: é uma folha de estilos.
+
+href="../css/style.css": indica o endereço/caminho do arquivo que será utilizado.
+
+../ : volta um nível na estrutura de pastas.
+
+css/ : entra na pasta css.
+
+style.css: arquivo que será carregado.
+
+RESUMO: onecta o HTML ao arquivo CSS externo.
+======================================
+
+charset:       COMO interpretar os caracteres
+viewport:       COMO visualizar a página
+description:        SOBRE o que é a página
+author:     QUEM criou
+link:   DE ONDE vem o CSS
+name:   O QUE estou descrevendo?
+content:    QUAL é a informação?
+rel:    QUAL é a relação?
+href:   ONDE está o recurso?
+======================================
+
+Tag	Conceito principal
+<h1>–<h6>	Hierarquia de títulos
+<p>	Parágrafo / unidade textual
+<strong>	Importância semântica
+<b>	Destaque visual
+<em>	Ênfase semântica
+<a>	Hiperlink / navegação
+<hr>	Separação temática
+<br>	Quebra de linha
+<!-- -->	Comentário / documentação

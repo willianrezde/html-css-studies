@@ -1,0 +1,128 @@
+# Questionário — Internet, Redes e Hospedagem
+
+### 1. Atualmente, na maioria das transmissões feitas mundialmente pela Internet, por onde a maior quantidade de sinais vai passar?
+
+**A)** Por baixo d'água, em cabos submarinos
+**B)** Por sinais de satélite, partindo de antenas
+**C)** Por antenas de comunicação via celular
+**D)** Por cabos enterrados nos continentes
+
+Minha resposta: A
+Resultado: Certo
+Resposta correta: 
+---
+
+### 2. Os dados que vão trafegar pelas redes e chegar aos computadores vão estar codificados em:
+
+**A)** Letras e símbolos
+**B)** Conjuntos de bits e bytes (0s e 1s)
+**C)** Ondas codificadas sem um padrão definido
+**D)** Arquivos de imagem / textos
+
+Minha resposta: B
+Resultado: Certo
+Resposta correta: 
+---
+
+### 3. Quando um sinal está representado em um determinado tipo de onda (codificação) e precisamos transformá-lo em outro tipo, dizemos que estamos realizando uma:
+
+**A)** Extração
+**B)** Composição
+**C)** Descompressão
+**D)** Modulação
+
+Minha resposta: D
+Resultado: Certo
+Resposta correta: 
+---
+
+### 4. Na maioria das vezes que estamos realizando algum tipo de acesso via rede, um lado será o ______ e vai solicitar o uso de um determinado ______. Quem vai atender a essa solicitação é considerado um ______.
+
+**A)** Servidor / cliente
+**B)** Cliente / servidor
+**C)** Solicitante / provedor
+**D)** Provedor / servidor
+
+Minha resposta: B
+Resultado: Correto
+Resposta correta: B
+---
+
+### 5. Todo e qualquer ponto conectado à Internet recebe um identificador, que se chama "endereço IP". Na versão IPv4, um endereço possui ______ bits, já a versão IPv6 necessita de ______ bits para identificar um ponto.
+
+**A)** 32 bits / 64 bits
+**B)** 64 bits / 128 bits
+**C)** 32 bits / 128 bits
+**D)** 16 bits / 64 bits
+
+Minha resposta: C
+Resultado: Correto
+Resposta correta: C
+---
+
+### 6. Qual é o serviço (e seu respectivo significado) responsável por resolver os endereços IP dos servidores a partir de um nome?
+
+Ele faz com que os usuários não precisem decorar números IP, que inclusive mudam constantemente.
+
+**A)** DNS — Domain Name System
+**B)** DNS — Domain Name Service
+**C)** DNS — Domain Name Server
+**D)** DDNS — Data Name Server
+
+Minha resposta: A
+Resultado: Correto
+Resposta correta: A 
+---
+
+### 7. Uma URL é composta por vários componentes. Na URL `https://www.github.com/gustavoguanabara`, por exemplo, são respectivamente o **domínio**, o **protocolo** e o **caminho** os itens apontados na opção:
+
+**A)** github.com / https / gustavoguanabara
+**B)** github.com / www / gustavoguanabara
+**C)** github / https / gustavoguanabara
+**D)** [www.github.com](http://www.github.com) / www / gustavoguanabara
+
+Minha resposta: D
+Resultado: Errado
+Resposta correta: A
+
+simplesmente mosquei, mas esperava um www.
+---
+
+### 8. Quando chegar a hora de construir nossos sites, devemos informar aos nossos clientes que geralmente o domínio tem uma taxa de pagamento enquanto as hospedagens são, de forma geral, de pagamento:
+
+**A)** Mensal / anual
+**B)** Anual / diário
+**C)** Mensal / diário
+**D)** Anual / mensal
+
+Minha resposta: A
+Resultado: Errado
+Resposta correta: D
+
+Confundi a ordem
+---
+
+### 9. Os domínios possuem seus Top Level Domains. Vejamos como exemplo os domínios `estudonauta.com.br` e `cursoemvideo.com`. No primeiro caso, temos um ______ e no segundo caso, temos um ______.
+
+**A)** gTLD / ccTLD
+**B)** ccTLD / gTLD
+**C)** TLD / ccTLD
+**D)** ccTLD / TLD
+
+Minha resposta: A
+Resultado: Errado
+Resposta correta: B
+
+Erro de ordem novamente
+---
+
+### 10. Todo bom serviço de hospedagem deve fornecer recursos e serviços valiosos para seus clientes. Entre os itens a seguir, qual é o único que **NÃO É oferecido** por uma empresa de hospedagem?
+
+**A)** Atendimento de suporte
+**B)** Espaço em disco para armazenamento
+**C)** Manutenção periódica no PC do cliente
+**D)** Backup constante dos arquivos e bancos de dados
+
+Minha resposta: C
+Resultado: Correta
+Resposta correta: C

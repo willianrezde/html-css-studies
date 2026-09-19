@@ -1,0 +1,32 @@
+body{
+    background-color: #2C6AFF;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+p{
+    font-size: 26px;
+    width: 100px;
+    margin: 0;
+}
+
+/*zerando margem externa do UL para os textos ficarem mais proximos um do outro pois estão cada um em um paragrafo*/
+ul,li{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+/*====================================*/
+
+/*removendo o estilo da ol,ul para nao ficarem com numeração e bolinha antes do texto*/
+    ul, ol {
+    padding: 0;
+    list-style-type: none;
+}
+/*====================================*/
+
+/*Utilizando width para limitar a largura disponível para o conteúdo do ol, provocando a quebra automática das linhas*/
+ol{
+    width: 100px;
+}
