@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Manrope", sans-serif;
+    height: 100vh;
+}
+
+.menu_navegacao{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #f7f3e5;
+}
+
+.menu_nav{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu_nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 1.2rem;
+    gap: 40px;
+}
+
+.menu_nav a{
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+    font-weight: 600;
+    color: #0F3D2E;
+}
+
+.menu_nav a:hover{
+    border-bottom: 2px solid #2e7d32;
+}
+
+
+.menu_nav a{
+    text-decoration: none;
+}
+
+.bg400{
+    background-image: url(../images/bg400.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.beneficios{
+    background-color: #f7f3e5;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+
+.icones svg{
+    width: 32px;
+    height: 32px;
+    
+}
+.icones{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: #acceb3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.beneficio h3{
+    text-align: center;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont_cultiva{
+    width: 350px;
+    font-size: 1.1rem;
+    padding-left: 16px;
+}
+
+.cont_cultiva button{
+    background: none;
+    border: solid 2px #2e7d32;
+    font: inherit;
+    border-radius: 25px;
+    width: 200px;
+    padding: 5px;
+    margin-top: 16px;
+}
+
+.cont_cultiva a{
+    text-decoration: none;
+    color: #2e7d32;
+}
+
+.cont_cultiva span{
+    color:#2e7d32;
+    font-weight: 800;
+}
+
+.cimg{
+    margin: 0 auto;
+    transform: translateX(-50%);
+    padding: 0 auto;
+}
+
+.cimg{
+    margin-top: 16px;
+    
+}
+
+.cimg img{
+    border-radius: 0 25px 0 25px;
+    border:#2e7d32 2px solid;
+}
+
+
+
+.info_adicionais{
+    background-color: #f7f3e5;
+    height: 500px;
+}
+
+.info_adicionais h1{
+    font-size: 1.5rem;
+    color: #2e7d32;
+}
+.info_adicionais{
+font-size: 2rem;
+color: #0F3D2E;
+}
+
+.adicons{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    border-radius: 50%;
+    background-color:#2e7d32;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px; 
+    margin-top: 32px;
+}
+
+.adicionais h3{
+    color:#0F3D2E;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.adicionais p{
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.adicionais{
+   background-color: #f3f2ef;
+   text-align: center;
+   width: 150px;
+   height: 175px;
+   border-radius: 0 25px 25px 25px;
+}
+
+.rodape{
+    background-color: #0F3D2E;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape button{
+    background-color: transparent;
+    border: none;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+}
+
+.rodape button{
+    background: none;
+    background-color: #2e7d32;
+    border: solid 2px #2e7d32;
+    font: inherit;
+    border-radius: 50px;
+    width: 300px;
+    margin-top: 75px;
+    margin-right: 100px;
+    height: 60px;
+    color: #feffff;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+}
+
+.rodape h1{
+    color: #2e7d32;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 16px;
+}
+
+.rodape p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 16px;
+}
+
+.info_rodape{
+    height: 200px;
+    background-color:#09241b;
+    border-top: solid 1px #2e7d32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.info_rodape img{
+    width: 90px;
+    height: 90px;
+    margin: 16px;
+}
+
+.info_rodape p{
+    color:#f7f3e5;
+    align-items: center;
+}

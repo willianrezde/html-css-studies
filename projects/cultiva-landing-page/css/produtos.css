@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+/*=========AREA DE RESET=========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*=========FIM DE RESET=========*/
+body{
+    font-family: "Manrope", sans-serif;
+    height: 100vh;
+}
+/*=========INICIO ESTILIZAÇÃO DA AREA DE NAVEGAÇÃO (MENU)=========*/
+.menu_navegacao{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #f7f3e5;
+    border-bottom:1px solid #2e7d32;
+}
+
+.menu_nav{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu_nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 1.2rem;
+    gap: 40px;
+}
+
+.menu_nav a{
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+    font-weight: 600;
+    color: #0F3D2E;
+}
+
+.menu_nav a:hover{
+    border-bottom: 2px solid #2e7d32;
+}
+
+
+.menu_nav a{
+    text-decoration: none;
+}
+/*=========FIM DA ESTILIZAÇÃO DA AREA DE NAVEGAÇÃO (MENU)=========*/
+
+/*=========INÍCIO DA ESTILIZAÇÃO DA SEÇÃO DO SITE=========*/
+
+/*=========FIM DA ESTILIZAÇÃO DA SEÇÃO DO SITE=========*/
