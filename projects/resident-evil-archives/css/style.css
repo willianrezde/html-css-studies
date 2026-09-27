@@ -60,6 +60,7 @@ body{
 }
 
 .header button a{
+    font-size: 1.5rem;
     color: #ffffff;
     text-decoration: none;
     font-style: none;
