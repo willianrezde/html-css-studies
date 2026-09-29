@@ -1,84 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body{
-    font-family: "Manrope", sans-serif;
-}
-/* ESTILIZAÇÃO DO MENU DE NAVEGAÇÃO DOL SITE*/
-.header{
-    width: 100vw;
-    height: 500px;
-    background-image: url(../images/background-menu.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #050609;
+    color: #8e92aa;
     display: flex;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+/*estilização do elemento central da pagina*/
+.center h1{
+     font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.center h2{
+    font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.center a{
+    text-decoration: none;
+    color:  #8e92aa;
+}
+.center button{
+    font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  background-color: #101063;
+  margin: 1rem;
+}
+
+.center button:hover{
+    background-color: #17179b;
+    color: #fff5;
+    transition: all 0.5s;
+}
+
+
+.center{ /*Centralizar elemento*/
+    background-color: #0e1018;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #ffffff;
-    text-shadow: blue 2px solid;
+    height: 350px;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    border-top: 2px solid #8e92aa;
+    border-right: 2px dashed #8e92aa;
+    border-bottom: 2px solid #8e92aa;
+    border-left: 2px dashed #8e92aa;
+}
 
+/*fim da estilização do elemento central da pagina*/
+
+/*estilização fundo do centro da pagina*/
+
+.back-center{
+    background-color: #101063;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.back-center img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*fim da estilização fundo do centro da pagina*/
+
+.menu-index{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 600px;
+    background-color: #8e92aa;
+}
+
+.menu-index ul{
+    flex-direction: row;
+    display: flex;
+    gap: 32px;
+    text-decoration: none;
+}
+
+.menu-index li{
+    padding-top: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
  
 }
 
-.header h1 {
-    text-shadow: 2px 2px 5px #ff0000;
-    font-size: 2rem;
-}
-
-.header p{
-    font-size: 1.5rem;
-    text-shadow: 2px 2px 4px #ffffff;
-    color: #fcfcfc;
-    font-weight: 800;
-    font-style: none;
-    gap: 32px;
-}
-
-.menu_navegacao ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-}
-
-.header a{
+.menu-index a{
     text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    transition: 0.7s;
+    color: #f8f9fc;
 }
-
-.header a:hover{
-    background-color: red;
-}
-
-.header button a{
-    font-size: 1.5rem;
-    color: #ffffff;
-    text-decoration: none;
-    font-style: none;
-}
-
-
-.header button {
-    background-color: grey;
-    padding: 10px 20px;
-}
-
-
-
-.header img{
-    height: 150px;
-    width: 300px;
-    border: 1px solid #ffffff;
-    border-radius: 10px;
-}
-
-/* FIM DA ESTILIZAÇÃO DO MENU DE NAVEGAÇÃO DOL SITE*/
